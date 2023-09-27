@@ -1,8 +1,8 @@
 {
   "name": "2dec",
-  "version": "1.0.1",
+  "version": "1.0.1-b",
   "description": "Number to string with any number of decimal points",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",
