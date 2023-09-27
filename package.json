@@ -1,24 +1,25 @@
 {
-  "name": "2dec",
-  "version": "1.0.1-b",
-  "description": "Number to string with any number of decimal points",
-  "main": "index.js",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/robertsspaceindustries/2dec.git"
-  },
-  "keywords": [
-    "numbers"
-  ],
-  "author": {
-    "name": "Astrid",
-    "email": "github@astrid.exposed",
-    "url": "https://robertsspaceindustri.es"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/robertsspaceindustries/2dec/issues"
-  },
-  "homepage": "https://github.com/robertsspaceindustries/2dec#readme"
+	"name": "2dec",
+	"version": "1.0.1-c",
+	"description": "Number to string with any number of decimal points",
+	"main": "index.js",
+	"type": "module",
+	"types": "./index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robertsspaceindustries/2dec.git"
+	},
+	"keywords": [
+		"numbers"
+	],
+	"author": {
+		"name": "Astrid",
+		"email": "github@astrid.exposed",
+		"url": "https://robertsspaceindustri.es"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/robertsspaceindustries/2dec/issues"
+	},
+	"homepage": "https://github.com/robertsspaceindustries/2dec#readme"
 }
