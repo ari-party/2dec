@@ -4,7 +4,7 @@
  * @param {Intl.Locale} locale *
  * @returns {String}
  */
-export default function convert(number, decimals, locale) {
+export default function todec(number, decimals, locale) {
 	if (!number) {
 		throw new Error("Missing number argument");
 	}

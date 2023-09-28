@@ -1,1 +1,1 @@
-export default function convert(number: Number, decimals: Number, locale: Intl.Locale): String;
+export default function todec(number: Number, decimals: Number, locale: Intl.Locale): String;
