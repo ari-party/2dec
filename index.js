@@ -9,7 +9,7 @@ export default function todec(number, decimals, locale) {
 		throw new Error("Missing number argument");
 	}
 
-	if (typeof decimals !== number) decimals = 0;
+	if (typeof decimals !== "number") decimals = 0;
 
 	const NumberFormat = Intl.NumberFormat(locale || "en-us", {
 		minimumFractionDigits: decimals,
