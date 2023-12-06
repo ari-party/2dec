@@ -1,6 +1,6 @@
 {
 	"name": "2dec",
-	"version": "1.0.3-patch",
+	"version": "1.0.3-patch-b",
 	"description": "Number to string with any number of decimal points",
 	"main": "./index.js",
 	"type": "module",
