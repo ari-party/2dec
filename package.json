@@ -1,6 +1,6 @@
 {
   "name": "2dec",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Number to string with any number of decimal points",
   "main": "./index.js",
   "type": "module",
@@ -12,11 +12,7 @@
   "keywords": [
     "numbers"
   ],
-  "author": {
-    "name": "Astrid",
-    "email": "github@astrid.exposed",
-    "url": "https://robertsspaceindustri.es"
-  },
+  "author": "Astrid <git@astrid.email>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/robertsspaceindustries/2dec/issues"

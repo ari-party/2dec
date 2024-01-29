@@ -1,13 +1,5 @@
-/**
- * @param {Number} number
- * @param {Number} decimals *
- * @param {Intl.Locale} locale *
- * @returns {String}
- */
-export default function todec(number, decimals, locale) {
-  if (typeof number !== "number") throw new Error("Missing number argument");
-
-  if (typeof decimals !== "number") decimals = 2;
+export default function todec(number, decimals = 2, locale) {
+  if (typeof number !== "number") throw new Error("Inavlid number argument");
 
   const NumberFormat = Intl.NumberFormat(locale ?? "en-us", {
     minimumFractionDigits: decimals,
