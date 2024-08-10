@@ -1,5 +1,5 @@
 export default function todec(
-  number: Number,
-  decimals?: Number,
+  number: number,
+  decimals?: number,
   locale?: Intl.Locale
 ): string;
